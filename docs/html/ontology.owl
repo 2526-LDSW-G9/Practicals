@@ -1,0 +1,263 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#"
+     xml:base="https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:University="https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#">
+    <owl:Ontology rdf:about="https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#studies -->
+
+
+    <owl:ObjectProperty rdf:about="https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#studies">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#Student"/>
+        <rdfs:range rdf:resource="https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#Module"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#teaches -->
+
+
+    <owl:ObjectProperty rdf:about="https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#teaches">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#Teacher"/>
+        <rdfs:range rdf:resource="https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#Module"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#StudentId -->
+
+
+    <owl:DatatypeProperty rdf:about="https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#StudentId">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#Student"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#first_name -->
+
+
+    <owl:DatatypeProperty rdf:about="https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#first_name">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#Person"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#last_name -->
+
+
+    <owl:DatatypeProperty rdf:about="https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#last_name">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#Person"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#staffId -->
+
+
+    <owl:DatatypeProperty rdf:about="https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#staffId">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#Teacher"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#CSModule -->
+
+
+    <owl:Class rdf:about="https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#CSModule">
+        <rdfs:subClassOf rdf:resource="https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#Module"/>
+    </owl:Class>
+    
+
+
+    <!-- https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#MathModule -->
+
+
+    <owl:Class rdf:about="https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#MathModule">
+        <rdfs:subClassOf rdf:resource="https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#Module"/>
+    </owl:Class>
+    
+
+
+    <!-- https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#Module -->
+
+
+    <owl:Class rdf:about="https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#Module"/>
+    
+
+
+    <!-- https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#Person -->
+
+
+    <owl:Class rdf:about="https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#Person"/>
+    
+
+
+    <!-- https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#Student -->
+
+
+    <owl:Class rdf:about="https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#Student">
+        <rdfs:subClassOf rdf:resource="https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#Person"/>
+    </owl:Class>
+    
+
+
+    <!-- https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#Teacher -->
+
+
+    <owl:Class rdf:about="https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#Teacher">
+        <rdfs:subClassOf rdf:resource="https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#Person"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#LDSW -->
+
+
+    <owl:NamedIndividual rdf:about="https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#LDSW">
+        <rdf:type rdf:resource="https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#CSModule"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#student1 -->
+
+
+    <owl:NamedIndividual rdf:about="https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#student1">
+        <rdf:type rdf:resource="https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#Student"/>
+        <studies rdf:resource="https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#LDSW"/>
+        <StudentId rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1337</StudentId>
+        <first_name>Stefan</first_name>
+        <last_name>Bussemaker</last_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#student2 -->
+
+
+    <owl:NamedIndividual rdf:about="https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#student2">
+        <rdf:type rdf:resource="https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#Student"/>
+        <studies rdf:resource="https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#LDSW"/>
+        <StudentId rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">42</StudentId>
+        <first_name>Charlotte</first_name>
+        <last_name>Wang</last_name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#teacher1 -->
+
+
+    <owl:NamedIndividual rdf:about="https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#teacher1">
+        <rdf:type rdf:resource="https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#Teacher"/>
+        <teaches rdf:resource="https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#LDSW"/>
+        <first_name>Luiz</first_name>
+        <last_name>Bonino</last_name>
+        <staffId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6403</staffId>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#teacher2 -->
+
+
+    <owl:NamedIndividual rdf:about="https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#teacher2">
+        <rdf:type rdf:resource="https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#Teacher"/>
+        <teaches rdf:resource="https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#LDSW"/>
+        <first_name>Luís</first_name>
+        <last_name>Ferreira Pires</last_name>
+        <staffId rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3843</staffId>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#CSModule"/>
+            <rdf:Description rdf:about="https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#MathModule"/>
+            <rdf:Description rdf:about="https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#Student"/>
+            <rdf:Description rdf:about="https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#Teacher"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/ -->
+
+

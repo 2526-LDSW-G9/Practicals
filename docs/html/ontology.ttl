@@ -1,0 +1,151 @@
+@prefix : <https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#> .
+
+<https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#studies
+:studies rdf:type owl:ObjectProperty ;
+         rdfs:subPropertyOf owl:topObjectProperty ;
+         rdfs:domain :Student ;
+         rdfs:range :Module .
+
+
+###  https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#teaches
+:teaches rdf:type owl:ObjectProperty ;
+         rdfs:subPropertyOf owl:topObjectProperty ;
+         rdfs:domain :Teacher ;
+         rdfs:range :Module .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#StudentId
+:StudentId rdf:type owl:DatatypeProperty ;
+           rdfs:subPropertyOf owl:topDataProperty ;
+           rdfs:domain :Student ;
+           rdfs:range xsd:int .
+
+
+###  https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#first_name
+:first_name rdf:type owl:DatatypeProperty ;
+            rdfs:subPropertyOf owl:topDataProperty ;
+            rdfs:domain :Person ;
+            rdfs:range xsd:string .
+
+
+###  https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#last_name
+:last_name rdf:type owl:DatatypeProperty ;
+           rdfs:subPropertyOf owl:topDataProperty ;
+           rdfs:domain :Person ;
+           rdfs:range xsd:string .
+
+
+###  https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#staffId
+:staffId rdf:type owl:DatatypeProperty ;
+         rdfs:subPropertyOf owl:topDataProperty ;
+         rdfs:domain :Teacher ;
+         rdfs:range xsd:int .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#CSModule
+:CSModule rdf:type owl:Class ;
+          rdfs:subClassOf :Module .
+
+
+###  https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#MathModule
+:MathModule rdf:type owl:Class ;
+            rdfs:subClassOf :Module .
+
+
+###  https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#Module
+:Module rdf:type owl:Class .
+
+
+###  https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#Person
+:Person rdf:type owl:Class .
+
+
+###  https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#Student
+:Student rdf:type owl:Class ;
+         rdfs:subClassOf :Person .
+
+
+###  https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#Teacher
+:Teacher rdf:type owl:Class ;
+         rdfs:subClassOf :Person .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#LDSW
+:LDSW rdf:type owl:NamedIndividual ,
+               :CSModule .
+
+
+###  https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#student1
+:student1 rdf:type owl:NamedIndividual ,
+                   :Student ;
+          :studies :LDSW ;
+          :StudentId 1337 ;
+          :first_name "Stefan" ;
+          :last_name "Bussemaker" .
+
+
+###  https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#student2
+:student2 rdf:type owl:NamedIndividual ,
+                   :Student ;
+          :studies :LDSW ;
+          :StudentId 42 ;
+          :first_name "Charlotte" ;
+          :last_name "Wang" .
+
+
+###  https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#teacher1
+:teacher1 rdf:type owl:NamedIndividual ,
+                   :Teacher ;
+          :teaches :LDSW ;
+          :first_name "Luiz" ;
+          :last_name "Bonino" ;
+          :staffId 6403 .
+
+
+###  https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#teacher2
+:teacher2 rdf:type owl:NamedIndividual ,
+                   :Teacher ;
+          :teaches :LDSW ;
+          :first_name "Luís" ;
+          :last_name "Ferreira Pires" ;
+          :staffId 3843 .
+
+
+#################################################################
+#    General axioms
+#################################################################
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :CSModule
+                :MathModule
+                :Student
+                :Teacher
+              )
+] .
+
+
+###  Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/
