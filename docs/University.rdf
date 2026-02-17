@@ -217,7 +217,6 @@
         <rdf:type rdf:resource="https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#Student"/>
         <rdf:type rdf:resource="https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#Teacher"/>
         <University:studies rdf:resource="https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#LDSW"/>
-        <University:teaches rdf:resource="https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#MATH"/>
         <University:first_name>Luís</University:first_name>
         <University:last_name>Ferreira Pires</University:last_name>
         <University:staffId rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3843</University:staffId>
