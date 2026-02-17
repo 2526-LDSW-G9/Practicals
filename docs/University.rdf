@@ -167,6 +167,14 @@
     
 
 
+    <!-- https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#MATH -->
+
+    <owl:NamedIndividual rdf:about="https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#MATH">
+        <rdf:type rdf:resource="https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#MathModule"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#student1 -->
 
     <owl:NamedIndividual rdf:about="https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#student1">
@@ -206,32 +214,14 @@
     <!-- https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#teacher2 -->
 
     <owl:NamedIndividual rdf:about="https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#teacher2">
+        <rdf:type rdf:resource="https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#Student"/>
         <rdf:type rdf:resource="https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#Teacher"/>
-        <University:teaches rdf:resource="https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#LDSW"/>
+        <University:studies rdf:resource="https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#LDSW"/>
+        <University:teaches rdf:resource="https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#MATH"/>
         <University:first_name>Luís</University:first_name>
         <University:last_name>Ferreira Pires</University:last_name>
         <University:staffId rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3843</University:staffId>
     </owl:NamedIndividual>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // General axioms
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-        <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#CSModule"/>
-            <rdf:Description rdf:about="https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#MathModule"/>
-            <rdf:Description rdf:about="https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#Student"/>
-            <rdf:Description rdf:about="https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#Teacher"/>
-        </owl:members>
-    </rdf:Description>
 </rdf:RDF>
 
 
