@@ -1,0 +1,89 @@
+@prefix University: <https://2526-ldsw-g9.github.io/Practicals/University.rdf#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://2526-ldsw-g9.github.io/Practicals/University.rdf> a owl:Ontology .
+
+University:MATH a owl:NamedIndividual,
+        University:MathModule .
+
+University:StudentId a owl:DatatypeProperty ;
+    rdfs:domain University:Student ;
+    rdfs:range xsd:int ;
+    rdfs:subPropertyOf owl:topDataProperty .
+
+University:first_name a owl:DatatypeProperty ;
+    rdfs:domain University:Person ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf owl:topDataProperty .
+
+University:last_name a owl:DatatypeProperty ;
+    rdfs:domain University:Person ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf owl:topDataProperty .
+
+University:staffId a owl:DatatypeProperty ;
+    rdfs:domain University:Teacher ;
+    rdfs:range xsd:int ;
+    rdfs:subPropertyOf owl:topDataProperty .
+
+University:student1 a owl:NamedIndividual,
+        University:Student ;
+    foaf:knows University:student2 ;
+    University:StudentId "42"^^xsd:int ;
+    University:first_name "42"^^xsd:int ;
+    University:last_name "42"^^xsd:int ;
+    University:studies University:LDSW .
+
+University:studies a owl:ObjectProperty ;
+    rdfs:domain University:Student ;
+    rdfs:range University:Module ;
+    rdfs:subPropertyOf owl:topObjectProperty .
+
+University:teacher1 a owl:NamedIndividual,
+        University:Teacher ;
+    University:first_name "42"^^xsd:int ;
+    University:last_name "42"^^xsd:int ;
+    University:staffId "42"^^xsd:int ;
+    University:teaches University:LDSW .
+
+University:teacher2 a owl:NamedIndividual,
+        University:Student,
+        University:Teacher ;
+    University:first_name "42"^^xsd:int ;
+    University:last_name "42"^^xsd:int ;
+    University:staffId "42"^^xsd:int ;
+    University:studies University:LDSW .
+
+University:teaches a owl:ObjectProperty ;
+    rdfs:domain University:Teacher ;
+    rdfs:range University:Module ;
+    rdfs:subPropertyOf owl:topObjectProperty .
+
+University:CSModule a owl:Class ;
+    rdfs:subClassOf University:Module .
+
+University:MathModule a owl:Class ;
+    rdfs:subClassOf University:Module .
+
+University:student2 a owl:NamedIndividual,
+        University:Student ;
+    University:StudentId "42"^^xsd:int ;
+    University:first_name "42"^^xsd:int ;
+    University:last_name "42"^^xsd:int ;
+    University:studies University:LDSW .
+
+University:LDSW a owl:NamedIndividual,
+        University:CSModule .
+
+University:Module a owl:Class .
+
+University:Person a owl:Class .
+
+University:Teacher a owl:Class ;
+    rdfs:subClassOf University:Person .
+
+University:Student a owl:Class ;
+    rdfs:subClassOf University:Person .

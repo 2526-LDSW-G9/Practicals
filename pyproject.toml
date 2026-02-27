@@ -1,0 +1,9 @@
+[project]
+name = "2526-ldsw-group-9"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "rdflib>=7.6.0",
+]
