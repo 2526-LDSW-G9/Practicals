@@ -1,4 +1,4 @@
-<https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://2526-ldsw-g9.github.io/Practicals/University.rdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
 # 
 # 
 # #################################################################
@@ -8,17 +8,17 @@
 # #################################################################
 # 
 # 
-# https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#studies
-<https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#studies> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#studies> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
-<https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#studies> <http://www.w3.org/2000/01/rdf-schema#domain> <https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#Student> .
-<https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#studies> <http://www.w3.org/2000/01/rdf-schema#range> <https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#Module> .
+# https://2526-ldsw-g9.github.io/Practicals/University.rdf#studies
+<https://2526-ldsw-g9.github.io/Practicals/University.rdf#studies> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://2526-ldsw-g9.github.io/Practicals/University.rdf#studies> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<https://2526-ldsw-g9.github.io/Practicals/University.rdf#studies> <http://www.w3.org/2000/01/rdf-schema#domain> <https://2526-ldsw-g9.github.io/Practicals/University.rdf#Student> .
+<https://2526-ldsw-g9.github.io/Practicals/University.rdf#studies> <http://www.w3.org/2000/01/rdf-schema#range> <https://2526-ldsw-g9.github.io/Practicals/University.rdf#Module> .
 # 
-# https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#teaches
-<https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#teaches> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#teaches> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
-<https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#teaches> <http://www.w3.org/2000/01/rdf-schema#domain> <https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#Teacher> .
-<https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#teaches> <http://www.w3.org/2000/01/rdf-schema#range> <https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#Module> .
+# https://2526-ldsw-g9.github.io/Practicals/University.rdf#teaches
+<https://2526-ldsw-g9.github.io/Practicals/University.rdf#teaches> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://2526-ldsw-g9.github.io/Practicals/University.rdf#teaches> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<https://2526-ldsw-g9.github.io/Practicals/University.rdf#teaches> <http://www.w3.org/2000/01/rdf-schema#domain> <https://2526-ldsw-g9.github.io/Practicals/University.rdf#Teacher> .
+<https://2526-ldsw-g9.github.io/Practicals/University.rdf#teaches> <http://www.w3.org/2000/01/rdf-schema#range> <https://2526-ldsw-g9.github.io/Practicals/University.rdf#Module> .
 # 
 # 
 # 
@@ -29,29 +29,29 @@
 # #################################################################
 # 
 # 
-# https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#StudentId
-<https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#StudentId> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#StudentId> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
-<https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#StudentId> <http://www.w3.org/2000/01/rdf-schema#domain> <https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#Student> .
-<https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#StudentId> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+# https://2526-ldsw-g9.github.io/Practicals/University.rdf#StudentId
+<https://2526-ldsw-g9.github.io/Practicals/University.rdf#StudentId> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://2526-ldsw-g9.github.io/Practicals/University.rdf#StudentId> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://2526-ldsw-g9.github.io/Practicals/University.rdf#StudentId> <http://www.w3.org/2000/01/rdf-schema#domain> <https://2526-ldsw-g9.github.io/Practicals/University.rdf#Student> .
+<https://2526-ldsw-g9.github.io/Practicals/University.rdf#StudentId> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
 # 
-# https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#first_name
-<https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#first_name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#first_name> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
-<https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#first_name> <http://www.w3.org/2000/01/rdf-schema#domain> <https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#Person> .
-<https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#first_name> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# https://2526-ldsw-g9.github.io/Practicals/University.rdf#first_name
+<https://2526-ldsw-g9.github.io/Practicals/University.rdf#first_name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://2526-ldsw-g9.github.io/Practicals/University.rdf#first_name> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://2526-ldsw-g9.github.io/Practicals/University.rdf#first_name> <http://www.w3.org/2000/01/rdf-schema#domain> <https://2526-ldsw-g9.github.io/Practicals/University.rdf#Person> .
+<https://2526-ldsw-g9.github.io/Practicals/University.rdf#first_name> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 # 
-# https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#last_name
-<https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#last_name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#last_name> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
-<https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#last_name> <http://www.w3.org/2000/01/rdf-schema#domain> <https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#Person> .
-<https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#last_name> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# https://2526-ldsw-g9.github.io/Practicals/University.rdf#last_name
+<https://2526-ldsw-g9.github.io/Practicals/University.rdf#last_name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://2526-ldsw-g9.github.io/Practicals/University.rdf#last_name> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://2526-ldsw-g9.github.io/Practicals/University.rdf#last_name> <http://www.w3.org/2000/01/rdf-schema#domain> <https://2526-ldsw-g9.github.io/Practicals/University.rdf#Person> .
+<https://2526-ldsw-g9.github.io/Practicals/University.rdf#last_name> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 # 
-# https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#staffId
-<https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#staffId> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#staffId> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
-<https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#staffId> <http://www.w3.org/2000/01/rdf-schema#domain> <https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#Teacher> .
-<https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#staffId> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+# https://2526-ldsw-g9.github.io/Practicals/University.rdf#staffId
+<https://2526-ldsw-g9.github.io/Practicals/University.rdf#staffId> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://2526-ldsw-g9.github.io/Practicals/University.rdf#staffId> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://2526-ldsw-g9.github.io/Practicals/University.rdf#staffId> <http://www.w3.org/2000/01/rdf-schema#domain> <https://2526-ldsw-g9.github.io/Practicals/University.rdf#Teacher> .
+<https://2526-ldsw-g9.github.io/Practicals/University.rdf#staffId> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
 # 
 # 
 # 
@@ -62,27 +62,27 @@
 # #################################################################
 # 
 # 
-# https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#CSModule
-<https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#CSModule> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#CSModule> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#Module> .
+# https://2526-ldsw-g9.github.io/Practicals/University.rdf#CSModule
+<https://2526-ldsw-g9.github.io/Practicals/University.rdf#CSModule> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://2526-ldsw-g9.github.io/Practicals/University.rdf#CSModule> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://2526-ldsw-g9.github.io/Practicals/University.rdf#Module> .
 # 
-# https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#MathModule
-<https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#MathModule> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#MathModule> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#Module> .
+# https://2526-ldsw-g9.github.io/Practicals/University.rdf#MathModule
+<https://2526-ldsw-g9.github.io/Practicals/University.rdf#MathModule> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://2526-ldsw-g9.github.io/Practicals/University.rdf#MathModule> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://2526-ldsw-g9.github.io/Practicals/University.rdf#Module> .
 # 
-# https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#Module
-<https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#Module> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# https://2526-ldsw-g9.github.io/Practicals/University.rdf#Module
+<https://2526-ldsw-g9.github.io/Practicals/University.rdf#Module> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 # 
-# https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#Person
-<https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#Person> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# https://2526-ldsw-g9.github.io/Practicals/University.rdf#Person
+<https://2526-ldsw-g9.github.io/Practicals/University.rdf#Person> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 # 
-# https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#Student
-<https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#Student> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#Student> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#Person> .
+# https://2526-ldsw-g9.github.io/Practicals/University.rdf#Student
+<https://2526-ldsw-g9.github.io/Practicals/University.rdf#Student> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://2526-ldsw-g9.github.io/Practicals/University.rdf#Student> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://2526-ldsw-g9.github.io/Practicals/University.rdf#Person> .
 # 
-# https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#Teacher
-<https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#Teacher> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#Teacher> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#Person> .
+# https://2526-ldsw-g9.github.io/Practicals/University.rdf#Teacher
+<https://2526-ldsw-g9.github.io/Practicals/University.rdf#Teacher> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://2526-ldsw-g9.github.io/Practicals/University.rdf#Teacher> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://2526-ldsw-g9.github.io/Practicals/University.rdf#Person> .
 # 
 # 
 # 
@@ -93,41 +93,41 @@
 # #################################################################
 # 
 # 
-# https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#LDSW
-<https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#LDSW> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#LDSW> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#CSModule> .
+# https://2526-ldsw-g9.github.io/Practicals/University.rdf#LDSW
+<https://2526-ldsw-g9.github.io/Practicals/University.rdf#LDSW> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://2526-ldsw-g9.github.io/Practicals/University.rdf#LDSW> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://2526-ldsw-g9.github.io/Practicals/University.rdf#CSModule> .
 # 
-# https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#student1
-<https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#student1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#student1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#Student> .
-<https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#student1> <https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#studies> <https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#LDSW> .
-<https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#student1> <https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#StudentId> "1337"^^<http://www.w3.org/2001/XMLSchema#integer> .
-<https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#student1> <https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#first_name> "Stefan" .
-<https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#student1> <https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#last_name> "Bussemaker" .
+# https://2526-ldsw-g9.github.io/Practicals/University.rdf#student1
+<https://2526-ldsw-g9.github.io/Practicals/University.rdf#student1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://2526-ldsw-g9.github.io/Practicals/University.rdf#student1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://2526-ldsw-g9.github.io/Practicals/University.rdf#Student> .
+<https://2526-ldsw-g9.github.io/Practicals/University.rdf#student1> <https://2526-ldsw-g9.github.io/Practicals/University.rdf#studies> <https://2526-ldsw-g9.github.io/Practicals/University.rdf#LDSW> .
+<https://2526-ldsw-g9.github.io/Practicals/University.rdf#student1> <https://2526-ldsw-g9.github.io/Practicals/University.rdf#StudentId> "1337"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://2526-ldsw-g9.github.io/Practicals/University.rdf#student1> <https://2526-ldsw-g9.github.io/Practicals/University.rdf#first_name> "Stefan" .
+<https://2526-ldsw-g9.github.io/Practicals/University.rdf#student1> <https://2526-ldsw-g9.github.io/Practicals/University.rdf#last_name> "Bussemaker" .
 # 
-# https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#student2
-<https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#student2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#student2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#Student> .
-<https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#student2> <https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#studies> <https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#LDSW> .
-<https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#student2> <https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#StudentId> "42"^^<http://www.w3.org/2001/XMLSchema#integer> .
-<https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#student2> <https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#first_name> "Charlotte" .
-<https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#student2> <https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#last_name> "Wang" .
+# https://2526-ldsw-g9.github.io/Practicals/University.rdf#student2
+<https://2526-ldsw-g9.github.io/Practicals/University.rdf#student2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://2526-ldsw-g9.github.io/Practicals/University.rdf#student2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://2526-ldsw-g9.github.io/Practicals/University.rdf#Student> .
+<https://2526-ldsw-g9.github.io/Practicals/University.rdf#student2> <https://2526-ldsw-g9.github.io/Practicals/University.rdf#studies> <https://2526-ldsw-g9.github.io/Practicals/University.rdf#LDSW> .
+<https://2526-ldsw-g9.github.io/Practicals/University.rdf#student2> <https://2526-ldsw-g9.github.io/Practicals/University.rdf#StudentId> "42"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://2526-ldsw-g9.github.io/Practicals/University.rdf#student2> <https://2526-ldsw-g9.github.io/Practicals/University.rdf#first_name> "Charlotte" .
+<https://2526-ldsw-g9.github.io/Practicals/University.rdf#student2> <https://2526-ldsw-g9.github.io/Practicals/University.rdf#last_name> "Wang" .
 # 
-# https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#teacher1
-<https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#teacher1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#teacher1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#Teacher> .
-<https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#teacher1> <https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#teaches> <https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#LDSW> .
-<https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#teacher1> <https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#first_name> "Luiz" .
-<https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#teacher1> <https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#last_name> "Bonino" .
-<https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#teacher1> <https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#staffId> "6403"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+# https://2526-ldsw-g9.github.io/Practicals/University.rdf#teacher1
+<https://2526-ldsw-g9.github.io/Practicals/University.rdf#teacher1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://2526-ldsw-g9.github.io/Practicals/University.rdf#teacher1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://2526-ldsw-g9.github.io/Practicals/University.rdf#Teacher> .
+<https://2526-ldsw-g9.github.io/Practicals/University.rdf#teacher1> <https://2526-ldsw-g9.github.io/Practicals/University.rdf#teaches> <https://2526-ldsw-g9.github.io/Practicals/University.rdf#LDSW> .
+<https://2526-ldsw-g9.github.io/Practicals/University.rdf#teacher1> <https://2526-ldsw-g9.github.io/Practicals/University.rdf#first_name> "Luiz" .
+<https://2526-ldsw-g9.github.io/Practicals/University.rdf#teacher1> <https://2526-ldsw-g9.github.io/Practicals/University.rdf#last_name> "Bonino" .
+<https://2526-ldsw-g9.github.io/Practicals/University.rdf#teacher1> <https://2526-ldsw-g9.github.io/Practicals/University.rdf#staffId> "6403"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 # 
-# https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#teacher2
-<https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#teacher2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#teacher2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#Teacher> .
-<https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#teacher2> <https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#teaches> <https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#LDSW> .
-<https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#teacher2> <https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#first_name> "Luís" .
-<https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#teacher2> <https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#last_name> "Ferreira Pires" .
-<https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#teacher2> <https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#staffId> "3843"^^<http://www.w3.org/2001/XMLSchema#integer> .
+# https://2526-ldsw-g9.github.io/Practicals/University.rdf#teacher2
+<https://2526-ldsw-g9.github.io/Practicals/University.rdf#teacher2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://2526-ldsw-g9.github.io/Practicals/University.rdf#teacher2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://2526-ldsw-g9.github.io/Practicals/University.rdf#Teacher> .
+<https://2526-ldsw-g9.github.io/Practicals/University.rdf#teacher2> <https://2526-ldsw-g9.github.io/Practicals/University.rdf#teaches> <https://2526-ldsw-g9.github.io/Practicals/University.rdf#LDSW> .
+<https://2526-ldsw-g9.github.io/Practicals/University.rdf#teacher2> <https://2526-ldsw-g9.github.io/Practicals/University.rdf#first_name> "Luís" .
+<https://2526-ldsw-g9.github.io/Practicals/University.rdf#teacher2> <https://2526-ldsw-g9.github.io/Practicals/University.rdf#last_name> "Ferreira Pires" .
+<https://2526-ldsw-g9.github.io/Practicals/University.rdf#teacher2> <https://2526-ldsw-g9.github.io/Practicals/University.rdf#staffId> "3843"^^<http://www.w3.org/2001/XMLSchema#integer> .
 # 
 # 
 # 
@@ -144,13 +144,13 @@ _:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid4 .
 _:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid3 .
 _:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid2 .
 _:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#Teacher> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://2526-ldsw-g9.github.io/Practicals/University.rdf#Teacher> .
 _:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#Student> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://2526-ldsw-g9.github.io/Practicals/University.rdf#Student> .
 _:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#MathModule> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://2526-ldsw-g9.github.io/Practicals/University.rdf#MathModule> .
 _:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#CSModule> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://2526-ldsw-g9.github.io/Practicals/University.rdf#CSModule> .
 _:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
 # 
 # Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

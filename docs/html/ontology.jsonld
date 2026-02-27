@@ -3,53 +3,53 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
-      "@id" : "https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#CSModule"
+      "@id" : "https://2526-ldsw-g9.github.io/Practicals/University.rdf#CSModule"
     }, {
-      "@id" : "https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#MathModule"
+      "@id" : "https://2526-ldsw-g9.github.io/Practicals/University.rdf#MathModule"
     }, {
-      "@id" : "https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#Student"
+      "@id" : "https://2526-ldsw-g9.github.io/Practicals/University.rdf#Student"
     }, {
-      "@id" : "https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#Teacher"
+      "@id" : "https://2526-ldsw-g9.github.io/Practicals/University.rdf#Teacher"
     } ]
   } ]
 }, {
-  "@id" : "https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf",
+  "@id" : "https://2526-ldsw-g9.github.io/Practicals/University.rdf",
   "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
 }, {
-  "@id" : "https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#CSModule",
+  "@id" : "https://2526-ldsw-g9.github.io/Practicals/University.rdf#CSModule",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#Module"
+    "@id" : "https://2526-ldsw-g9.github.io/Practicals/University.rdf#Module"
   } ]
 }, {
-  "@id" : "https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#LDSW",
+  "@id" : "https://2526-ldsw-g9.github.io/Practicals/University.rdf#LDSW",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#CSModule"
+    "@id" : "https://2526-ldsw-g9.github.io/Practicals/University.rdf#CSModule"
   } ]
 }, {
-  "@id" : "https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#MathModule",
+  "@id" : "https://2526-ldsw-g9.github.io/Practicals/University.rdf#MathModule",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#Module"
+    "@id" : "https://2526-ldsw-g9.github.io/Practicals/University.rdf#Module"
   } ]
 }, {
-  "@id" : "https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#Module",
+  "@id" : "https://2526-ldsw-g9.github.io/Practicals/University.rdf#Module",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
-  "@id" : "https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#Person",
+  "@id" : "https://2526-ldsw-g9.github.io/Practicals/University.rdf#Person",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
-  "@id" : "https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#Student",
+  "@id" : "https://2526-ldsw-g9.github.io/Practicals/University.rdf#Student",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#Person"
+    "@id" : "https://2526-ldsw-g9.github.io/Practicals/University.rdf#Person"
   } ]
 }, {
-  "@id" : "https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#StudentId",
+  "@id" : "https://2526-ldsw-g9.github.io/Practicals/University.rdf#StudentId",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#Student"
+    "@id" : "https://2526-ldsw-g9.github.io/Practicals/University.rdf#Student"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#int"
@@ -58,16 +58,16 @@
     "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
 }, {
-  "@id" : "https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#Teacher",
+  "@id" : "https://2526-ldsw-g9.github.io/Practicals/University.rdf#Teacher",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#Person"
+    "@id" : "https://2526-ldsw-g9.github.io/Practicals/University.rdf#Person"
   } ]
 }, {
-  "@id" : "https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#first_name",
+  "@id" : "https://2526-ldsw-g9.github.io/Practicals/University.rdf#first_name",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#Person"
+    "@id" : "https://2526-ldsw-g9.github.io/Practicals/University.rdf#Person"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
@@ -76,10 +76,10 @@
     "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
 }, {
-  "@id" : "https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#last_name",
+  "@id" : "https://2526-ldsw-g9.github.io/Practicals/University.rdf#last_name",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#Person"
+    "@id" : "https://2526-ldsw-g9.github.io/Practicals/University.rdf#Person"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
@@ -88,10 +88,10 @@
     "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
 }, {
-  "@id" : "https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#staffId",
+  "@id" : "https://2526-ldsw-g9.github.io/Practicals/University.rdf#staffId",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#Teacher"
+    "@id" : "https://2526-ldsw-g9.github.io/Practicals/University.rdf#Teacher"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#int"
@@ -100,101 +100,101 @@
     "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
 }, {
-  "@id" : "https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#student1",
+  "@id" : "https://2526-ldsw-g9.github.io/Practicals/University.rdf#student1",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#Student"
+    "@id" : "https://2526-ldsw-g9.github.io/Practicals/University.rdf#Student"
   } ],
-  "https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#StudentId" : [ {
+  "https://2526-ldsw-g9.github.io/Practicals/University.rdf#StudentId" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#integer",
     "@value" : "1337"
   } ],
-  "https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#first_name" : [ {
+  "https://2526-ldsw-g9.github.io/Practicals/University.rdf#first_name" : [ {
     "@value" : "Stefan"
   } ],
-  "https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#last_name" : [ {
+  "https://2526-ldsw-g9.github.io/Practicals/University.rdf#last_name" : [ {
     "@value" : "Bussemaker"
   } ],
-  "https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#studies" : [ {
-    "@id" : "https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#LDSW"
+  "https://2526-ldsw-g9.github.io/Practicals/University.rdf#studies" : [ {
+    "@id" : "https://2526-ldsw-g9.github.io/Practicals/University.rdf#LDSW"
   } ]
 }, {
-  "@id" : "https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#student2",
+  "@id" : "https://2526-ldsw-g9.github.io/Practicals/University.rdf#student2",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#Student"
+    "@id" : "https://2526-ldsw-g9.github.io/Practicals/University.rdf#Student"
   } ],
-  "https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#StudentId" : [ {
+  "https://2526-ldsw-g9.github.io/Practicals/University.rdf#StudentId" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#integer",
     "@value" : "42"
   } ],
-  "https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#first_name" : [ {
+  "https://2526-ldsw-g9.github.io/Practicals/University.rdf#first_name" : [ {
     "@value" : "Charlotte"
   } ],
-  "https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#last_name" : [ {
+  "https://2526-ldsw-g9.github.io/Practicals/University.rdf#last_name" : [ {
     "@value" : "Wang"
   } ],
-  "https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#studies" : [ {
-    "@id" : "https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#LDSW"
+  "https://2526-ldsw-g9.github.io/Practicals/University.rdf#studies" : [ {
+    "@id" : "https://2526-ldsw-g9.github.io/Practicals/University.rdf#LDSW"
   } ]
 }, {
-  "@id" : "https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#studies",
+  "@id" : "https://2526-ldsw-g9.github.io/Practicals/University.rdf#studies",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#Student"
+    "@id" : "https://2526-ldsw-g9.github.io/Practicals/University.rdf#Student"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#Module"
+    "@id" : "https://2526-ldsw-g9.github.io/Practicals/University.rdf#Module"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
   } ]
 }, {
-  "@id" : "https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#teacher1",
+  "@id" : "https://2526-ldsw-g9.github.io/Practicals/University.rdf#teacher1",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#Teacher"
+    "@id" : "https://2526-ldsw-g9.github.io/Practicals/University.rdf#Teacher"
   } ],
-  "https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#first_name" : [ {
+  "https://2526-ldsw-g9.github.io/Practicals/University.rdf#first_name" : [ {
     "@value" : "Luiz"
   } ],
-  "https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#last_name" : [ {
+  "https://2526-ldsw-g9.github.io/Practicals/University.rdf#last_name" : [ {
     "@value" : "Bonino"
   } ],
-  "https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#staffId" : [ {
+  "https://2526-ldsw-g9.github.io/Practicals/University.rdf#staffId" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
     "@value" : "6403"
   } ],
-  "https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#teaches" : [ {
-    "@id" : "https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#LDSW"
+  "https://2526-ldsw-g9.github.io/Practicals/University.rdf#teaches" : [ {
+    "@id" : "https://2526-ldsw-g9.github.io/Practicals/University.rdf#LDSW"
   } ]
 }, {
-  "@id" : "https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#teacher2",
+  "@id" : "https://2526-ldsw-g9.github.io/Practicals/University.rdf#teacher2",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#Teacher"
+    "@id" : "https://2526-ldsw-g9.github.io/Practicals/University.rdf#Teacher"
   } ],
-  "https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#first_name" : [ {
+  "https://2526-ldsw-g9.github.io/Practicals/University.rdf#first_name" : [ {
     "@value" : "Luís"
   } ],
-  "https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#last_name" : [ {
+  "https://2526-ldsw-g9.github.io/Practicals/University.rdf#last_name" : [ {
     "@value" : "Ferreira Pires"
   } ],
-  "https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#staffId" : [ {
+  "https://2526-ldsw-g9.github.io/Practicals/University.rdf#staffId" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#integer",
     "@value" : "3843"
   } ],
-  "https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#teaches" : [ {
-    "@id" : "https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#LDSW"
+  "https://2526-ldsw-g9.github.io/Practicals/University.rdf#teaches" : [ {
+    "@id" : "https://2526-ldsw-g9.github.io/Practicals/University.rdf#LDSW"
   } ]
 }, {
-  "@id" : "https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#teaches",
+  "@id" : "https://2526-ldsw-g9.github.io/Practicals/University.rdf#teaches",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#Teacher"
+    "@id" : "https://2526-ldsw-g9.github.io/Practicals/University.rdf#Teacher"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#Module"
+    "@id" : "https://2526-ldsw-g9.github.io/Practicals/University.rdf#Module"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"

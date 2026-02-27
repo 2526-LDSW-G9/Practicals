@@ -3,7 +3,7 @@
 # Usage: ./test_queries.sh [FUSEKI_URL]
 
 ENDPOINT="${1:-http://localhost:3030/ds}"
-PREFIX='PREFIX uni: <https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#>
+PREFIX='PREFIX uni: <https://2526-ldsw-g9.github.io/Practicals/University.rdf#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>'

@@ -27,7 +27,7 @@ The Fuseki UI is available at <http://localhost:3030>.
 Example query:
 
 ```sparql
-PREFIX uni: <https://sbussemaker.github.io/2526-LDSW-Group-9/University.rdf#>
+PREFIX uni: <https://2526-ldsw-g9.github.io/Practicals/University.rdf#>
 
 SELECT *
 WHERE { 
@@ -57,4 +57,4 @@ docker run -ti --rm \
   ghcr.io/dgarijo/widoco:v1.4.23 -ontFile in/University.rdf -outFolder out -rewriteAll
 ```
 
-Documentation is available here: <https://sbussemaker.github.io/2526-LDSW-Group-9/html/index-en.html>.
+Documentation is available here: <https://2526-ldsw-g9.github.io/Practicals/html/index-en.html>.
